@@ -1,0 +1,51 @@
+.contained{
+    background-color: #1976D2;
+    border: none;
+    color:white;
+}
+.contained:hover{
+    background-color: #126ac2;
+}
+.text{
+    border :none;
+    background-color: transparent;
+    color: #1976D2 ;
+}
+.text:hover{
+    background-color: #cae4ff;
+}
+.outlined{
+    border:1px solid #1976D2;
+    color:#1976D2;
+}
+.outlined:hover{
+    background-color: #cae4ff;
+}
+.button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-text{
+    border :none;
+    background-color: rgb(141, 141, 141);
+    color: #dfe6ee ;
+    cursor:not-allowed;  
+}
+.btn-outlined{
+    border:1px solid grey;
+    color:grey;
+    cursor:not-allowed;
+}
+.btn-contained{
+    background-color: rgb(173, 168, 168);
+    cursor:not-allowed;
+    border:none;
+}
+.disabled-button{
+    background-color: rgb(173, 168, 168);
+    cursor:not-allowed;
+    border:none;
+    color:white
+}
